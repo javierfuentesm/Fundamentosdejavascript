@@ -1,5 +1,4 @@
-Respuesta a:
-Variables
+
 //Primera Clase
 
 // imprimir un mensaje por consola.
