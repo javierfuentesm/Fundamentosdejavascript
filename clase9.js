@@ -21,3 +21,43 @@ var javier = {
 var javier2 = {
     nombre :'Javier'
 }
+
+javier==javier2 
+false
+
+javier===javier2
+false 
+
+//Se obtien true porque e el mismo objeto en memoria ram
+
+var javier = {
+    nombre :'Javier'
+}
+
+
+var javier2 =javier
+
+javier==javier2 
+true
+
+javier===javier2
+true 
+
+///
+
+var javier = {
+    nombre :'Javier'
+}
+
+
+
+var javier2 = {
+    ...javier
+}
+
+javier==javier2 
+false
+
+javier===javier2
+false 
+
