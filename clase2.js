@@ -14,3 +14,6 @@ var nombrecompleto2 = `${nombre} ${apellido.toUpperCase()}`
 var str =nombre.charAt(1) + nombre.charAt(2)
 
 var substr = nombre.substr(1,2)
+
+
+var ultimaletra = nombre.charAt(nombre.length-1)
