@@ -41,13 +41,13 @@ var persona ={
 }
 
 // Paso por parametro-Referencia
-functioncumpleaños(persona){
+function cumpleanos(persona){
     persona.edad +=1
 }
 
 //Paso por valor
 //Se puede crear un objeto diferente. Esto lo podemos hacer colocando tres puntos antes del nombre. Ej …persona.
-functioncumpleaños2(persona){
+function cumpleanos2(persona){
     return{
         ...persona,
         edad: persona.edad + 1
