@@ -41,4 +41,6 @@ var sacha = {
   var personas=[sacha,alan,martin,dario,vicky,paula]
 
 var personasaltas = personas.filter(esalta)
+
 console.log(personasaltas)
+console.log(personasbajas)
